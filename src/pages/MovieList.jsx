@@ -18,7 +18,7 @@ const MovieList = () => {
 
   if (status === 'loading') {
     content = (
-      <div className="flex justify-center items-center min-h-screen">
+      <div className="flex mt-4 min-h-screen">
         <Spinner />
       </div>
     );
