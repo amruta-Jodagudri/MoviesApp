@@ -1,8 +1,20 @@
-# React + Vite
+# Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based movie website that uses Vite for the build tool and development server. It incorporates Redux Toolkit for state management, Axios for HTTP requests, React Router for navigation, and Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+## Project Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (version 14.18.0 or later)
+- npm (version 6.14.15 or later) or yarn (version 1.22.10 or later)
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repository-url>
+   cd movie-app
